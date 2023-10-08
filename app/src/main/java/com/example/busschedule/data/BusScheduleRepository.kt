@@ -15,5 +15,5 @@ interface BusScheduleRepository {
     /**
      * Retrieve an item from the given data source that matches with the [stopName].
      */
-    fun getItemStream(stopName: String): Flow<BusSchedule?>
+    fun getItemStream(stopName: String): Flow<List<BusSchedule>>
 }

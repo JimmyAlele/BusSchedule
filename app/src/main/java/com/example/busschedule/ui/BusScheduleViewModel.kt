@@ -3,7 +3,6 @@ package com.example.busschedule.ui
 import android.app.Application
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.CreationExtras
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
@@ -11,7 +10,6 @@ import com.example.busschedule.BusScheduleApplication
 import com.example.busschedule.data.BusSchedule
 import com.example.busschedule.data.BusScheduleRepository
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.launch
 
 class BusScheduleViewModel (
     private val busScheduleRepository: BusScheduleRepository

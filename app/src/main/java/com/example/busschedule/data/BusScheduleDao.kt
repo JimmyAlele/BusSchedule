@@ -10,5 +10,5 @@ interface BusScheduleDao {
     fun getAllItems(): Flow<List<BusSchedule>>
 
     @Query("SELECT * from busSchedule WHERE stopName = :stopName ORDER BY arrivalTimeInMillis ASC")
-    fun getItem(stopName: String): Flow<BusSchedule>
+    fun getItem(stopName: String): Flow<List<BusSchedule>>
 }
