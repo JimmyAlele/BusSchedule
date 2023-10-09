@@ -17,3 +17,5 @@ access the `BusScheduleDao` and format data to be display in a list.
 - Manual dependency injection
 
 ## Final Application Screenshots
+<img src = "https://github.com/JimmyAlele/BusSchedule/blob/starter/app/src/main/assets/screenshot1.png" width = "25%">
+<img src = "https://github.com/JimmyAlele/BusSchedule/blob/starter/app/src/main/assets/screenshot2.png" width = "25%">
