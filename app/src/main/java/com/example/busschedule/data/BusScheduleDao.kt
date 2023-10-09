@@ -6,9 +6,9 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 interface BusScheduleDao {
-    @Query("SELECT * from busSchedule ORDER BY arrivalTimeInMillis ASC")
+    @Query("SELECT * from schedule ORDER BY arrival_time ASC")
     fun getAllItems(): Flow<List<BusSchedule>>
 
-    @Query("SELECT * from busSchedule WHERE stopName = :stopName ORDER BY arrivalTimeInMillis ASC")
+    @Query("SELECT * from schedule WHERE stop_name = :stopName ORDER BY arrival_time ASC")
     fun getItem(stopName: String): Flow<List<BusSchedule>>
 }

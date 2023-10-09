@@ -19,4 +19,6 @@ class AppDataContainer(private val context: Context) : AppContainer {
     override val busScheduleRepository: BusScheduleRepository by lazy {
         OfflineBusScheduleRepository(BusScheduleDatabase.getDatabase(context).busScheduleDao())
     }
+
+
 }

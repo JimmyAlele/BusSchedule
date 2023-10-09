@@ -6,9 +6,10 @@ import com.example.busschedule.data.AppDataContainer
 
 class BusScheduleApplication : Application() {
 
-    /**
+/**
      * AppContainer instance used by the rest of classes to obtain dependencies
      */
+
     lateinit var container: AppContainer
 
     override fun onCreate() {
