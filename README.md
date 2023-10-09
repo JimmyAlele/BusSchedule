@@ -17,4 +17,3 @@ access the `BusScheduleDao` and format data to be display in a list.
 - Manual dependency injection
 
 ## Final Application Screenshots
-
